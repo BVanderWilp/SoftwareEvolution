@@ -9,7 +9,7 @@
 	</target>
 
 	<target name="compile2">
-       	<mkdir dir="build/classes"/>
+       	<mkdir dir="build/classes2"/>
        	<javac srcdir="src2" destdir="build/classes2"/>
 	</target>
 	
