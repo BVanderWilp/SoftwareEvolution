@@ -10,10 +10,10 @@
 
 	<target name="compile2">
        	<mkdir dir="build/classes"/>
-       	<javac srcdir="src" destdir="build/classes"/>
+       	<javac srcdir="src2" destdir="build/classes2"/>
 	</target>
 	
-	<target name="test" depends="compile1", "compile2">
+	<target name="test" depends="compile1" "compile2">
 	</target>
 
 </project>
