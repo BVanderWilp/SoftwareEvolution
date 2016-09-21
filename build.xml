@@ -3,12 +3,17 @@
         <delete dir="build"/>
     </target>
 
-    <target name="compile">
+    <target name="compile1">
        	<mkdir dir="build/classes"/>
        	<javac srcdir="src" destdir="build/classes"/>
 	</target>
 
-	<target name="test" depends="compile">
+	<target name="compile2">
+       	<mkdir dir="build/classes"/>
+       	<javac srcdir="src" destdir="build/classes"/>
+	</target>
+	
+	<target name="test" depends="compile1", "compile2">
 	</target>
 
 </project>
