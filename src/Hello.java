@@ -1,7 +1,8 @@
 public class Hello
 {
-	/** run jump
-	* IllegalArgumentException
+	/** 
+	* NullPointerException jump
+	* work work work
 	*/
 	static void main(String...args)
 	{
